@@ -1,0 +1,15 @@
+package nischala;
+
+public class student {
+	String name;
+}
+class demo{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+student s1=new student();
+s1.name="ravi";
+System.out.println("student name:"+s1.name);
+	}
+
+}

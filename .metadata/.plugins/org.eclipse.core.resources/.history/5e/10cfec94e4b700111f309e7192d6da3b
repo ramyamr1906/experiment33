@@ -1,0 +1,15 @@
+package com.example.vvce.calculator;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class AppTest {
+	App app = new App();
+	
+    void testAdd() {
+    	assertEquals(25, app.add(20, 5));
+    }
+    
+    void testSubtract() {
+    	assertEquals(15, app.sub(20, 5));
+    }
+}

@@ -1,0 +1,27 @@
+package shrav;
+import java.util.Scanner;
+public class TwoD {
+	public static void main(String arg[]) {
+		int row,col;
+		Scanner sc=new  Scanner(System.in);
+		System.out.println("enetr no of row:");
+		row=sc.nextInt();
+		System.out.println("enetr no of col:");
+		col=sc.nextInt();
+		int arr[][]=new int[row][col];
+		for(int i=0;i<row;i++) {
+			for( int j=0;j<col;j++) {
+				arr[i][j] =sc.nextInt();
+			}
+		}
+		System.out.println("matrix:");
+		
+		
+				
+	
+
+	
+	
+	}
+
+}

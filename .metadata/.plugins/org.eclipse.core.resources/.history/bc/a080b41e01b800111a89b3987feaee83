@@ -1,0 +1,16 @@
+package shrav;
+
+public class Employee {
+	String name=" ";
+	int id=0;
+	int salary=0;
+	public void raiseSalary(int percent) { salary=salary+(salary*percent)/100;}
+	public static void main(String[ ] args) {
+		Employee emp = new Employee();
+		emp.name="Shravani";
+		emp.id=109;
+		emp.salary=50000;
+		emp.raiseSalary(15);
+		System.out.println("Salary:"+emp.salary);
+	}
+}
